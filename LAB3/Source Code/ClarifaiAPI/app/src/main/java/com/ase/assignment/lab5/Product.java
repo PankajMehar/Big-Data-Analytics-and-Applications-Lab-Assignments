@@ -40,11 +40,11 @@ public class Product extends Dialog implements
         yes.setOnClickListener(this);
 
         ArrayList<TextView> textViewList =new ArrayList<TextView>();
-        textViewList.add((TextView)findViewById(R.id.add1));
-        textViewList.add((TextView)findViewById(R.id.add2));
-        textViewList.add((TextView)findViewById(R.id.add3));
-        textViewList.add((TextView)findViewById(R.id.add4));
-        textViewList.add((TextView)findViewById(R.id.add5));
+        textViewList.add((TextView)findViewById(R.id.item1));
+        textViewList.add((TextView)findViewById(R.id.item2));
+        textViewList.add((TextView)findViewById(R.id.item3));
+        textViewList.add((TextView)findViewById(R.id.item4));
+        textViewList.add((TextView)findViewById(R.id.item5));
         textViewList.get(0).setText("Product"+"\t"+"Value");
         int i=0;
         for(Concept concept:cc){

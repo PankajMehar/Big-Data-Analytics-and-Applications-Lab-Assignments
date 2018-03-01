@@ -206,7 +206,7 @@ public class HomeActivity extends AppCompatActivity implements View.OnClickListe
         iv.setImageBitmap(bmp);
 
 
-        final ClarifaiClient client = new ClarifaiBuilder("e54514ddc4914b1bb92e34a52d8652a7").buildSync();
+        final ClarifaiClient client = new ClarifaiBuilder("e38114dde4114b1aa92e35l52d6652a2").buildSync();
         final ByteArrayOutputStream outStream = new ByteArrayOutputStream();
         bmp.compress(Bitmap.CompressFormat.JPEG, 100, outStream);
 
